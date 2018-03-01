@@ -14,10 +14,10 @@ module.exports = {
     compiler: 'babel',
     // https://babeljs.io/docs/usage/api/
     config: {
+      comments:false,
       presets:['env'],
       plugins:["transform-async-to-generator"]
     }
   },
-
   ignore:['node_modules','dist','.DB_store','.DS_Store']
 }
