@@ -1,6 +1,6 @@
 {
   "name": "@linhun/jane-cli",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-beta.3",
   "bin": {
     "jane": "./jane"
   },
@@ -19,9 +19,7 @@
     "node-fetch": "^2.0.0",
     "node-sass": "^4.7.2",
     "rimraf": "^2.6.2",
-    "sass-graph": "^2.2.4"
-  },
-  "devDependencies": {
+    "sass-graph": "^2.2.4",
     "babel-core": "^6.26.0"
   }
 }
