@@ -20,12 +20,12 @@ program
     .description('编译项目')
     .action((cmd) => {
       if(program.watch){
+        require('./lib/build')
         require('./lib/watch')
       }
       else{
         require('./lib/build')
       }
-
     })
 
 program
