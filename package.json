@@ -17,7 +17,6 @@
     "dependency-cruiser": "^2.14.0",
     "fs-extra": "^5.0.0",
     "node-fetch": "^2.0.0",
-    "node-sass": "^4.7.2",
     "rimraf": "^2.6.2",
     "babel-core": "^6.26.0"
   }
