@@ -26,4 +26,4 @@ module.exports = (option)=>{
 }
 ```
 + js 基于babel
-[babel插件文档]（https://github.com/jamiebuilds/babel-handbook/blob/master/translations/zh-Hans/plugin-handbook.md）
+[babel插件文档](https://github.com/jamiebuilds/babel-handbook/blob/master/translations/zh-Hans/plugin-handbook.md)
