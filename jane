@@ -20,12 +20,13 @@ program
     .description('编译项目')
     .action((cmd) => {
       if(program.watch){
-        require('./lib/watch')
+        require('./lib/build')(()=>{
+          require('./lib/watch')
+        })
       }
       else{
-        require('./lib/build')
+        require('./lib/build')()
       }
-
     })
 
 program
@@ -42,12 +43,12 @@ program
       require('./lib/page')(project)
     })
 
-program
-    .command('upgrade')
-    .description('更新')
-    .action(() => {
-      require('./lib/upgrade')
-    })
+// program
+//     .command('upgrade')
+//     .description('更新')
+//     .action(() => {
+//       require('./lib/upgrade')
+//     })
 
 program.parse(process.argv)
 
